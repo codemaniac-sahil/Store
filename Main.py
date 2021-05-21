@@ -14,12 +14,8 @@ def GET():
     S2=passbox.get()
     if(S1=='' and S2==''):
         admin()
-    elif(S1=='Rahul' and S2=='NDA'):
-        admin()
-    elif(S1=='Gaurav' and S2=='IITien'):
-        admin()   
-    elif(S1=='Renu' and S2=='Computer'):
-        admin()
+    elif(S1=='root' and S2=='pass'):
+        admin() 
     else:
         error=Label(root,text="Wrong Id \n Password \n TRY AGAIN",fg="red",font="helvetica 12 bold")
         error.place(x=650,y=400)
