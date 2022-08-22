@@ -1,4 +1,4 @@
-# Makingofstore
+# Store Management System
 This project is based on store management. I take Reliance store as an example.
 It is a project made by the help of python and python's module tkinter.
 Python modules need in this project :
